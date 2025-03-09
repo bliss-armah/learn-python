@@ -18,3 +18,13 @@ if has_high_income and has_good_credit:
 if has_good_credit and not has_criminal_record:
     print("Eligible for loan")
     
+
+
+# comparison operators
+ 
+temperature = 30
+
+if temperature == 30:
+    print("It's warm")
+else:
+    print("It's cold")

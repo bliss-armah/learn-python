@@ -9,4 +9,4 @@ def greet_user(username):
     print(f'Hi there {username}')
     print('Welcome aboard')
 
-greet_user('John')
+greet_user('John') 

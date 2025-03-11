@@ -5,6 +5,7 @@ import ecommerce.shipping
 from ecommerce.shipping import calculate_shipping
 from rolldice import roll_dice
 
+from pathlib import Path
 # inbuilt methods
 import random
 
@@ -17,4 +18,10 @@ import random
 # for i in range(3):
 #     print(random.randint(10,20))
 
-print(roll_dice())
+# print(roll_dice())
+
+
+path = Path()
+
+for file in path.glob('*'):
+    print(file)

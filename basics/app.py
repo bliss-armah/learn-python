@@ -3,7 +3,18 @@
 # import utils
 import ecommerce.shipping
 from ecommerce.shipping import calculate_shipping
+from rolldice import roll_dice
+
+# inbuilt methods
+import random
 
 # print(utils.find_max([2,5,4,7,1,9]))
 
-calculate_shipping()
+# calculate_shipping()
+
+
+
+# for i in range(3):
+#     print(random.randint(10,20))
+
+print(roll_dice())

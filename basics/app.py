@@ -4,6 +4,7 @@
 import ecommerce.shipping
 from ecommerce.shipping import calculate_shipping
 from rolldice import roll_dice
+import automation
 
 from pathlib import Path
 # inbuilt methods
@@ -21,7 +22,10 @@ import random
 # print(roll_dice())
 
 
-path = Path()
+# path = Path()
 
-for file in path.glob('*'):
-    print(file)
+# for file in path.glob('*'):
+#     print(file)
+
+
+automation.automat_excel_sheet('pythonautomation.xlsx')

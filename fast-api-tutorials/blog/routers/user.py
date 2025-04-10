@@ -2,9 +2,7 @@ from fastapi import APIRouter,Depends,status,HTTPException
 from sqlalchemy.orm import Session
 from .. import models,schemas,database,hashing
 
-router = APIRouter(
-    
-)
+router = APIRouter()
 
 
 @router.post('/user',status_code=status.HTTP_201_CREATED,tags=['users'])

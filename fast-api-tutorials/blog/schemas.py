@@ -2,6 +2,7 @@ from pydantic import BaseModel
 from typing import List
 
 class Blog(BaseModel):
+    id:int
     title:str
     body:str
 
@@ -17,6 +18,7 @@ class ShowUser(BaseModel):
     blogs:List[Blog]
 
 class ShowBlog(Blog):
+    id:int
     title:str
     body:str
     author: ShowUser
